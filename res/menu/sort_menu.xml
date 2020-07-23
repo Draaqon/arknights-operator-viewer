@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/iconsortby"
+        android:title="Sort By"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/iconrarity"
+                android:title="Rarity"
+                app:showAsAction="never" >
+                <menu>
+                    <item android:id="@+id/iconlowtohigh"
+                        android:title="Low to High"
+                        app:showAsAction="never" />
+                    <item
+                        android:id="@+id/iconhightolow"
+                        android:title="High to Low" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/iconname"
+                android:title="Name" >
+                <menu>
+                    <item android:id="@+id/iconnameAZ"
+                        android:title="A-Z"
+                        app:showAsAction="never" />
+                    <item
+                        android:id="@+id/iconnameZA"
+                        android:title="Z-A" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+
+
+</menu>
