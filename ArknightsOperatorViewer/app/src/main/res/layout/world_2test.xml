@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/transparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="401dp"
+        android:layout_height="500dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="200dp"
+        android:scaleType="centerCrop"
+        android:scrollbars="vertical"
+        android:src="@drawable/talulah_blackcrop"></ImageView>
+
+    <TextView
+        android:id="@+id/txtOriginium2"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/average_sans"
+        android:padding="10dp"
+        android:shadowColor="@color/colorBlack"
+        android:shadowDx="8"
+        android:shadowDy="8"
+        android:shadowRadius="1"
+        android:text="A ruthless movement."
+        android:textColor="@color/colorWhite"
+        android:textSize="50dp"
+        android:typeface="normal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="200dp"
+        android:scrollbars="vertical"
+        />
+
+    <ImageView
+        android:id="@+id/redrectWorld2"
+        android:layout_width="330dp"
+        android:layout_height="39dp"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="400dp"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/redrect"
+        android:scrollbars="vertical"></ImageView>
+
+    <TextView
+        android:id="@+id/breakingNewsWorld2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/redrectWorld2"
+        android:layout_alignLeft="@+id/redrectWorld2"
+        android:layout_alignTop="@+id/redrectWorld2"
+        android:layout_alignEnd="@+id/redrectWorld2"
+        android:layout_alignRight="@+id/redrectWorld2"
+        android:layout_alignBottom="@+id/redrectWorld2"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:fontFamily="@font/press_start_2p"
+        android:scrollbars="vertical"
+        android:text="REUNION MOVEMENT"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:typeface="normal"></TextView>
+
+    <ImageView
+        android:id="@+id/blackrectWorld2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:alpha=".7"
+        android:scaleType="centerCrop"
+        android:layout_alignTop="@id/redrectWorld2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/blackrect"></ImageView>
+
+    <TextView
+        android:id="@+id/introblurb2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/reunion_blurb"
+        android:textColor="@color/colorWhite"
+        android:padding="7sp"
+        android:textSize="16sp"
+        android:layout_alignStart="@+id/blackrectWorld2"
+        android:layout_alignLeft="@+id/blackrectWorld2"
+        android:layout_alignTop="@+id/blackrectWorld2"
+        android:layout_alignEnd="@+id/blackrectWorld2"
+        android:layout_alignRight="@+id/blackrectWorld2"
+        android:layout_alignBottom="@+id/blackrectWorld2"
+        android:scrollbars="vertical"/>
+
+</RelativeLayout>

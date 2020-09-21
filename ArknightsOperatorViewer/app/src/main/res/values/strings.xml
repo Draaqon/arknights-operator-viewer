@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Arknights</string>
+    <color name="darkgray">#3E3E3E</color>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="intro_blurb">Welcome to Terra, a world ravaged by Catastrophes and plagued by an incurable, infectious disease called Oripathy. With cities destroyed in the blink of an eye
+    by Originium Catastrophes and the infected marginalized by their uninfected peers, the Reunion movement has sought to take control of Terra by tyrannical force.\n\n
+    Lead Rhodes Island and their diverse roster of elite operators to push back the Reunion movement and forge a brighter tomorrow for the Infected and Non-Infected alike.\n\n\n
+    Keep fighting, Doctor.</string>
+    <string name="oripathy_blurb">The discovery of the mineral Originium and its incredible energy yield sprung the immense technological revolution.
+        However, Originium is not without its dangers, as people have found that long-term exposure to Originium and its industrial derivatives makes it more likely to be infected by Oripathy.
+        Oripathy is highly infectious and terminal, but with such a dependency on Originium, Terrans have found themselves in pandemic.\n\n
+    The crystallization infection will continued to spread through the Infected\'s body, inhibiting their ability to respirate and properly intake nutrition, eventually leading to certain death.</string>
+    <string name="catastrophe_blurb">A term describing the variety of frequent natural disasters that occur in the world of Terra, including but not limited to thunderstorms, earthquakes, floods, and even meteor showers.
+        The unpredictable nature of these calamities caused the society of Terra to develop technologies such as the Nomadic Cities and the employment of Catastrophe Messengers in order to flee from imminent destruction.\n\n
+        In the wake of these disasters, large concentrations of Originium can be found, leading to researchers to suspect that the catastrophes and originium share some sort of relationship.</string>
+    <string name="reunion_blurb">Once a rightful social movement that sought to end the discrimination against the infected, Reunion sought to bridge the divide between infected and uninfected to end all forms of
+    discrimination and oppression from Terran society. Those more soft-spoken infected branched off to form what is now known as Rhodes Island, but those who were united by their hatred toward uninfected society banded together
+    to form Reunion.\n\n
+    Now under the leadership of the tyrannical and mysterious Talulah, Reunion transformed into a militant organization advocating more radical methods such as riots, sabotage, and even acts of terror.</string>
+</resources>

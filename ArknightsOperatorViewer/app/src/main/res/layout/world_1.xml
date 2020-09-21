@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    android:alpha=".8"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="300dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="centerCrop"
+            android:src="@drawable/originium_shard"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:scrollbars="vertical">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txtOriginium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginRight="200dp"
+            android:fontFamily="@font/average_sans"
+            android:padding="10dp"
+            android:shadowColor="@color/colorBlack"
+            android:shadowDx="8"
+            android:shadowDy="8"
+            android:shadowRadius="1"
+            android:text="A deadly disease."
+            android:textColor="@color/colorWhite"
+            android:textSize="50dp"
+            android:typeface="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:scrollbars="vertical"/>
+
+        <ImageView
+            android:id="@+id/redrectWorld1"
+            android:layout_width="273dp"
+            android:layout_height="39dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="@+id/breakingNewsWorld1"
+            app:layout_constraintEnd_toEndOf="@+id/breakingNewsWorld1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/breakingNewsWorld1"
+            app:layout_constraintTop_toTopOf="@+id/breakingNewsWorld1"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/redrect"
+            android:scrollbars="vertical"></ImageView>
+
+        <TextView
+            android:id="@+id/breakingNewsWorld1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/press_start_2p"
+            android:paddingLeft="6dp"
+            android:paddingBottom="6dp"
+            android:text="BREAKING NEWS"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:typeface="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.519"
+            android:scrollbars="vertical"></TextView>
+
+        <ImageView
+            android:id="@+id/blackrectWorld1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:alpha=".7"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/redrectWorld1"
+            app:layout_constraintTop_toBottomOf="@+id/redrectWorld1"
+            app:srcCompat="@drawable/blackrect"
+            android:scrollbars="vertical"></ImageView>
+
+        <TextView
+            android:id="@+id/introblurb"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="6dp"
+            android:text="@string/intro_blurb"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/blackrectWorld1"
+            app:layout_constraintEnd_toEndOf="@+id/blackrectWorld1"
+            app:layout_constraintStart_toStartOf="@+id/blackrectWorld1"
+            app:layout_constraintTop_toTopOf="@+id/blackrectWorld1"
+            android:scrollbars="vertical"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
